@@ -1,0 +1,175 @@
+*{margin: 0px;padding: 0px;}
+/* header  */
+.header_width{margin: auto;width: 95%;display: flex;justify-content: space-between;}
+.header_list{display: flex;padding: 30px 0px;list-style-type: none;}
+.header_list a{padding: 20px 20px;text-decoration: none;color: black;font-weight: 500;}
+.header_logo{padding: 10px 20px;}
+/* hero section */
+.hero{background: url(./hero-section.png);height: 600px;width: 100%; background-size: cover;background-repeat: no-repeat;}
+.hero_content{margin-right: 40px;color: aliceblue;text-align: right;position: relative;top: 160px;}
+.hero_content h1{font-size: 50px;color: yellow;font-weight: bold;}
+.hero_content h2{font-size: 30px;margin-top: 20PX;}
+.hero_content p{font-size: 18px;margin-top: 20px;}
+.hero_button{display: flex;justify-content: right; }
+.hero_button_contact_us a{text-decoration: none;color: black;font-weight: 600;}
+.hero_button_get_appointment a{text-decoration: none;color: black;font-weight: 600;}
+.hero_button_get_appointment {margin: 30px 30px;padding: 15px 30px;border-color: rgb(255, 255, 255);border-style: solid;border-radius: 5px;}
+.hero_button_contact_us{margin: 30px 0px; padding: 15px 30px;border-color: rgb(255, 255, 255);border-style: solid;border-radius: 5px;}
+/* about */
+.about{margin: 100px 0px 0px 0px;}
+/* about_one  */
+.about_one{margin: auto;padding: 25px 50px;width: 90%;display: flex;justify-content: space-evenly;}
+.about_one_content{width: 50%; padding: 65px 0px;}
+.about_one_content h1{font-size: 30px;font-weight: bold;text-shadow: 3px 3px 3px #A8A6A6;}
+.about_one_content p{margin: 25px 0px;font-size: 16px;width: 615px;} 
+/* about_two  */
+.about_two{margin: auto;width: 90%;display: flex;padding: 25px 50px;justify-content: space-between;}
+.about_two_content{max-width: 45%;padding: 65px 0px;}
+.about_two_content h1{font-size: 30px;font-weight: bold;text-shadow: 3px 3px 3px #A8A6A6;}
+.about_two_content p{margin: 25px 0px;font-size: 16px;}
+/* about_three  */
+.about_three{margin: auto;width: 90%;display: flex;padding: 25px 50px;justify-content: space-between;}
+.about_three_content{width: 50%;padding: 65px 0px;}
+.about_three_content h1{font-size: 30px;font-weight: bold;text-shadow: 3px 3px 3px #A8A6A6;}
+.about_three_content p{margin: 25px 0px;font-size: 16px;width: 615px;}
+/* about_img  */
+.about_img{height: 450px;width: 650px ;object-fit: fill;}
+.about_img_right{height: 450px; width: 650px;object-fit: fill;}
+/* contact  */
+.contact{display: flex;width: 75%;margin: auto;}
+/* contact_info  */
+.contact_info{height: 420px;width: 420px;background-color: #AE8A6A;position: absolute;margin: 100px 0px;}
+.contact_info_content{padding: 40px 50px 50px 50px;margin: 50 0px;}
+.contact_info_heading h1{font-size: 30px;padding: 60px 75px 0px 75px;}
+.contact_info_location{display: flex;padding: 10px 0px;}
+.contact_info_location p{font-size: 18px;color: #ffffff;padding: 4px 10px;}
+.contact_info_phone{display: flex;padding: 10px 0px;}
+.contact_info_phone p{font-size: 18px;color: #ffffff;padding: 12px 10px;}
+.contact_info_mail{display: flex;padding: 10px 0px;}
+.contact_info_mail p{font-size: 18px;color: #ffffff;padding: 12px 10px;}
+/* contact_message */
+.contact_message_border{height: 510px;width: 1000px;border-style: solid;border-width: 3px;border-color: #000000;background-color:#ffffff;position: relative;left: 200px;margin: 50px 0px;}
+.contact_message_content{margin:30px 50px 30px 250px ;}
+.contact_message_name_no{display: flex;}
+.contact_message_mail_reason{display: flex;}
+.contact_message_name{border: none;border-bottom: 2px solid #000000;width: 330px;padding: 12px 0px;margin: 40px 15px 0px 15px;font-size: 16px;background-color: #ffffff;}
+.contact_message_message{border: none;border-bottom: 2px solid #000000;margin: 40px 15px 0px 15px;height: 140px;width: 670px;font-size: 16px;}
+.contact_message_button{padding: 8px 60px 8px 60px;margin: 28px 15px 0px 15px;border-color: rgb(255, 255, 255);border-style: solid;border-radius: 5px;}
+.contact_message_button a{text-decoration: none;color: black;font-size: 22px;}
+/* testimonial */
+.testimonial{margin: 50px 0px;}
+.testimonial_grid{display: flex;width: 95%;margin: auto;justify-content: space-evenly;}
+/* testimonial_first_&_third */
+.testimonial_side{justify-content: center;background-color: #bbb9b9;height: 410px;width: 320px;margin: 40px 0px;border-radius: 10px;}
+.testimonial_side img{margin: 35px 85px 0px 85px;height: 150px; width: 150px;}
+.testimonial_side h1{text-align: center; font-size: 18px;}
+.testimonial_side p{text-align: center;margin: 45px 65px;font-size: 15px;}
+/* testimonial_second */
+.testimonial_main{background-color: #AE8A6A;height: 500px;width: 390px;border-radius: 10px;}
+.testimonial_main img{margin: 40px 99px 0px 99px;height: 192px; width: 192px;}
+.testimonial_main h1{text-align: center;}
+.testimonial_main p{text-align: center;margin: 50px 55px 30px 55px;font-size: 19px;}
+/* service_grid */
+.service_grid{display: flex; margin: 100px 0px;}
+.service_solid{height: 660px;width: 838px;background-color: #AE8A6A;position: absolute;left: 680px;}
+.service_info{position: relative;height: 550px;width: 1200px;background-color: #ffffff;border-style: solid;border-width: 1px;border-color: #000000;margin: 50px 100px;}
+/* service_content */
+.service_segment{display: flex;}
+.service_list_left{margin: 5px 40px 5px 75px;display: flex;}
+.service_list_right{margin: 5px 75px 5px 40px;display: flex;}
+.service_description p{padding: 0px 0px 10px 0px ;min-width: 405px; font-size: 16px;}
+.service_description h2{min-width: 405px;padding: 10px 0px 5px 0px;font-size: 20px;}
+.service_info_content h1{text-align: center;padding: 30px 0px;font-size: 30px;}
+.service_segment img{height: 90px;width: 90px;object-fit: cover;}
+/* gallery */
+.gallery{margin: 15px 15px; object-fit: cover;}
+.row_one{display: flex;}
+.row_two{display: flex;}
+.row_three{display: flex;}
+.row_four{display: flex;}
+.row_segment{display: flex;}
+.row_one img{height: 300px;    width: 365px;}
+.gallery_two img{margin: 0px 10px;}
+.gallery_four img{height: 610px;width: 365px;}
+.gallery_five img{height: 300px;width: 655px;margin: 5px 0px;}
+.gallery_six img{height: 300px;width: 450px;margin: 5px 10px;}
+.gallery_seven img{height: 300px;width: 520px;margin: 0px 0px;}
+.gallery_eight img{height: 300px;width: 580px;margin: 0px 10px;}
+.gallery_nine img{height: 300px;width: 370px;margin: 0px 0px;}
+.gallery_ten img{height: 300px;width: 630px;margin: 5px 0px;}
+.gallery_eleven img{height: 300px;width: 365px;margin: 5px 10px;}
+.gallery_twelve img{height: 300px;width: 475px;margin: 5px 0px;}
+/* appointment */
+.appointment{margin: 150px 0px;}
+.appointment_solid{height: 600px;width: 650px;background-color: #AE8A6A;position: absolute;left: 150px;margin: -70px 0px;}
+.appointment_content{height: 460px;width: 600px;border-style: solid;border-width: 1px;border-color: #000000;background-color:#ffffff;position: relative;left: 450px;margin: 10px 0px;}
+.appointment_content h1{text-align: right;margin: 35px 23px ;}
+.appointment_name, .appointment_no, .appointment_email, .appointment_gender{height: 66px; width: 300px;}
+.appointment_date, .appointment_time{height: 66px; width: 200px;}
+.appointment_name_no, .appointment_mail_gender, .appointment_date_time{display: flex;}
+/* appointment_form */
+.appointment_name input{outline: none; border: none;border-bottom: 2px solid #000000;width: 240px;padding: 6px 0px;margin: 35px 20px 0px 40px;font-size: 14px;background-color: #ffffff;}
+.appointment_no input{outline: none; border: none;border-bottom: 2px solid #000000;width: 240px;padding: 6px 0px;margin: 35px 0px 0px 20px;font-size: 14px;background-color: #ffffff;}
+.appointment_no img {height: 25px; width: 25px;    position: relative; top: 05px; right: 30px;}
+.appointment_email input{outline: none; border: none;border-bottom: 2px solid #000000;width: 240px;padding: 6px 0px;margin: 20px 15px 0px 40px;font-size: 14px;background-color: #ffffff;}
+.appointment_email img {height: 25px; width: 45px;position: relative; bottom: 25px; left: 240px;}
+.appointment_gender select{border: none;border-bottom: 2px solid #000000;width: 240px;padding: 6px 0px;margin: 20px 15px 0px 20px;font-size: 14px;background-color: #ffffff;}
+.appointment_gender img {height: 35px; width: 35px;position: relative; bottom: 35px; left: 210px;}
+.appointment_date input{outline: none;border: none;border-bottom: 2px solid #000000;width: 140px;padding: 6px 0px;margin: 20px 15px 0px 40px;font-size: 14px;background-color: #ffffff;}
+.appointment_date img {height: 35px; width: 40px;position: relative; bottom: 35px; left: 145px;}
+.appointment_time input{outline: none;border: none;border-bottom: 2px solid #000000;width: 140px;padding: 6px 0px;margin: 20px 15px 0px 120px;font-size: 14px;background-color: #ffffff;}
+.appointment_time img {height: 32px; width: 32px;position: relative; bottom: 35px; left: 225px;}
+.appointment_service select{border: none;border-bottom: 2px solid #000000;width: 240px;padding: 6px 0px;margin: 20px 15px 0px 40px;font-size: 14px;background-color: #ffffff;}
+.appointment_button{padding: 8px 45px 8px 45px;margin: 25px 0px 0px 40px;border-color: rgb(255, 255, 255);border-style: solid;border-radius: 5px;}
+.appointment_button a{text-decoration: none;color: black;font-size: 18px;}
+/* footer */
+.footer{height: 300px;width: 100%;background-color: #AE8A6A;}
+.logo img{width: 130px;height: 60px;position: absolute;right: 10px;padding: 10px 0px;}
+.footer_contacts{display: flex;justify-content: center;padding: 60px 0px 40px 0px;}
+.footer_contacts img{height: 40x;width: 40px;object-fit: fill;padding: 0px 2px;margin: 0px 5px;border-style: solid;border-color: #ffffff;border-width: 1px;}
+.footer_links ul{display: flex;justify-content: center;list-style: none;}
+.footer_links ul li{padding: 25px 20px;color: #ffffff;}
+.copyrights{display: flex;justify-content: center;gap: 50px;margin: 50px 0px 10px 0px;font-size: 12px;}
+@media screen and (max-width:500px) {
+    .about_one, .about_two, .about_three, .about_three, .service_grid, .service_segment, .contact, .row_segment, .row_one, .row_two, .row_three, .row_four{ 
+        display: block;
+    }
+    
+    .header_logo img{
+        width: 62px;
+    }
+    .header_logo{
+        padding: 10px 0px;
+    }
+    .header_list{
+        padding: 10px 0px;
+        font-size: 12px;
+    }
+    .header_list li {
+        display: flex wrap;
+        font-size: 12px;
+    }
+    
+    .header_list li a{
+        font-size: 12px;
+        font-weight: 100;
+        padding: 0px 0px;
+    }
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .about_one_content{
+        padding: 20px 0px;
+    }
+    .service_solid{
+        width: 100px;
+    }
+    .service_info, .about_one{
+        width: 100%;
+        height: auto;
+    }
+    .service_segment{
+        width: 100%;
+    }
+}
